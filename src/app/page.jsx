@@ -1,8 +1,9 @@
+import { Box } from '@chakra-ui/react'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <Box bgColor={"black"} w={"100%"} h={"100vh"}>Home</Box>
   )
 }
 
