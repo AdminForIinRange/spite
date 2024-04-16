@@ -48,26 +48,27 @@ const LaptopGradientWithImg = () => {
         px={10}
       >
         <ImgRender />
-        <VStack justify={"center"} gap={2} align={"center"} mt={2}>
+        <VStack justify={"center"} gap={2} align={"center"} >
           <HStack justify={"center"} align={"center"}></HStack>
           <HStack
             justify={"center"}
-            gap={12}
+            gap={["5", "6", "10", "10", "16"]}
             align={"center"}
             opacity={0.5}
-            mt={8}
+          
+        fontSize={["15px", "20px", "30px", "30px", "45px"]}
           >
-            <FaReact size={50} />
-            <TbBrandNextjs size={50} />
-            <IoLogoVercel size={50} />
-            <TbBrandFramerMotion size={50} />
+            <FaReact />
+            <TbBrandNextjs  />
+            <IoLogoVercel  />
+            <TbBrandFramerMotion  />
 
-            <SiTailwindcss size={50} />
+            <SiTailwindcss  />
 
-            <SiJest size={50} />
-            <SiPrettier size={50} />
-            <SiGit size={50} />
-            <SiVisualstudio size={50} />
+            <SiJest  />
+            <SiPrettier  />
+            <SiGit  />
+            <SiVisualstudio  />
           </HStack>
         </VStack>
       </VStack>

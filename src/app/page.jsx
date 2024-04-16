@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
 
-    <Box>
+    <Box h={"100%"} w={"100%"} bgColor={"black"}>
 
 
       <Box id="Home" bgColor={"black"} w={"100%"}>
@@ -24,13 +24,13 @@ const Home = () => {
         <LaptopGradientWithImg />
       </Box>
 
-      <Box bgColor={"black"} w={"100%"}>
-        <PerformanceText />{" "}
+      <Box bgColor={"black"} w={"100%"} >
+        <PerformanceText /> {" "}
       </Box>
-      
+{/*       
       <Box bgColor={"black"} w={"100%"}>
        <DisplayBox />
-      </Box>
+      </Box> */}
 
       </Box>
     </>
