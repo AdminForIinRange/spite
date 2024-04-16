@@ -1,9 +1,39 @@
+"use client"
+
 import Image from 'next/image'
-import React from 'react'
-import { Box } from '@chakra-ui/react'
-import LaptopImg from '@/img/laptop.png'
-import CryptoDashboard from '@/img/cryptoDashbaord.png'
+import React, { useState } from 'react'
+import { Box, HStack, useMediaQuery } from '@chakra-ui/react'
+import LaptopImg from '@/img/LaptopCryptoDash.png'
+
 const LaptopGradientWithImg = () => {
+    const [isTablet] = useMediaQuery("(max-width: 1024px)");
+    const [isMobile] = useMediaQuery("(max-width: 736px)");
+    const [isPhone] = useMediaQuery("(max-width: 480px)");
+    const [isVerySmall] = useMediaQuery("(max-width: 360px)");
+
+
+
+const ImgRender = () =>{
+
+    if(isTablet){
+        return (
+            <Image src={LaptopImg} alt="laptop" width={900} height={100}   />
+        )
+    } else if(isMobile){
+
+        return (
+            <Image src={LaptopImg} alt="laptop" width={200} height={100}   />
+        )
+        
+    } else if(!isTablet && !isMobile){ 
+        return (
+            <Image src={LaptopImg} alt="laptop" width={1000} height={100}   />
+        )
+    }
+
+}
+
+
   return (
 
 
@@ -14,12 +44,13 @@ const LaptopGradientWithImg = () => {
         textAlign="center"
         display="flex"
         alignItems="center"
-        justifyContent="center">
-            
-            <Image src={LaptopImg} alt="laptop" width={1300} height={500}   />
+        justifyContent="center" px={10}  >
 
-                <Image style={{ position: "absolute" }} src={CryptoDashboard} alt="laptop" width={700} height={100}  /> 
-         
+
+
+<ImgRender />
+
+
         </Box>
 
        

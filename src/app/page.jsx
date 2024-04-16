@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
     
-    <Box id='Features' bgColor={"black"} w={"100%"} h={"100vh"}>Home</Box>
+    <Box id='Home' bgColor={"black"} w={"100%"} h={"100vh"}>Home</Box>
 <LaptopGradientWithImg />
     </>
   )
