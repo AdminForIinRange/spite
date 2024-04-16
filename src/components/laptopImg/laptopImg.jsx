@@ -17,7 +17,7 @@ const ImgRender = () =>{
 
     if(isTablet){
         return (
-            <Image src={LaptopImg} alt="laptop" width={900} height={100}   />
+            <Image src={LaptopImg} alt="laptop" width={700} height={100}   />
         )
     } else if(isMobile){
 
@@ -27,7 +27,7 @@ const ImgRender = () =>{
         
     } else if(!isTablet && !isMobile){ 
         return (
-            <Image src={LaptopImg} alt="laptop" width={1000} height={100}   />
+            <Image src={LaptopImg} alt="laptop" width={1200} height={100}   />
         )
     }
 
