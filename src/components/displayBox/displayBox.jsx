@@ -1,9 +1,14 @@
 import { Box, HStack, VStack, Text } from "@chakra-ui/react";
 import React from "react";
 
+import IphoneCrypto from "@/img/iphonesCrypto.png";
+import { IoIosSpeedometer } from "react-icons/io";
+import { FaChartLine } from "react-icons/fa6";
+import { FaShieldAlt } from "react-icons/fa";
+import Image from "next/image";
 const DisplayBox = () => {
   return (
-    <Box h={"100%"} w={"100%"}  px={20} mt={"200px"}>
+    <Box h={"100%"} w={"100%"} px={[5, 10, 10, 10, 20]} mt={["80px", "100px", "200px", "200px", "200px"]}>
       <VStack
         w={"100%"}
         h={"100%"}
@@ -16,62 +21,57 @@ const DisplayBox = () => {
           h={"100%"}
           align={"start"}
           justify={"center"}
-          gap={8}
+          gap={["10px", "10px", "10px", "20px", "20px"]} 
+          flexWrap={["wrap", "nowrap", "nowrap", "nowrap", "nowrap"]}
+         
         >
           {" "}
-          <Box
-            border={"1px solid white"}
-            w={"100%"}
-            h={"350px"}
-            bg={"transparent"}
-            rounded={"xl"}
-            p={5}
-          ></Box>
-          <Box
-            border={"1px solid white"}
-            w={"50%"}
-            h={"250px"}
-            bg={"transparent"}
-            rounded={"xl"}
-            p={5}
-          >
-            <Text
-              fontSize={["30px", "30px", "30px", "30px", "30px"]}
-              color={"white"}
-              fontWeight={"bold"}
-            ></Text>
-          </Box>
-        </HStack>
+          <Box   transition={"all 0.3s ease"} _hover={{ 
 
-        <HStack
-          w={"100%"}
-          h={"100%"}
-          align={"start"}
-          justify={"center"}
-          gap={8}
-        >
-          <Box
+            width: "150%",
+           }}
             border={"1px solid white"}
-            w={"50%"}
-            h={"250px"}
+            w={"100%"}
+            h={["100px", "250px", "350px", "350px", "350px"]}
+            bg={"transparent"}
+            rounded={"xl"}
+            p={5}>
+                <Text color={"white"} fontSize={["22px", "16px", "20px", "30px", "46px"]} fontWeight={"bold"}>
+        <IoIosSpeedometer  />
+      </Text>
+          </Box>
+           <Box
+           transition={"all 0.3s ease"} _hover={{ 
+
+            width: "150%",
+           }}
+            border={"1px solid white"}
+            w={"100%"}
+            h={["100px", "250px", "350px", "350px", "350px"]}
+            bg={"transparent"}
+            rounded={"xl"}
+            p={5}
+          >  <Text color={"white"} fontSize={["22px", "16px", "20px", "30px", "46px"]} fontWeight={"bold"} >
+    <FaChartLine  />
+      </Text></Box>
+           <Box
+           transition={"all 0.3s ease"} _hover={{ 
+
+            width: "150%",
+           }}
+            border={"1px solid white"}
+            w={"100%"}
+            h={["100px", "250px", "350px", "350px", "350px"]}
             bg={"transparent"}
             rounded={"xl"}
             p={5}
           >
-            <Text
-              fontSize={["30px", "30px", "30px", "30px", "30px"]}
-              color={"white"}
-              fontWeight={"bold"}
-            ></Text>
-          </Box>{" "}
-          <Box
-            border={"1px solid white"}
-            w={"100%"}
-            h={"350px"}
-            bg={"transparent"}
-            rounded={"xl"}
-            p={5}
-          ></Box>
+           
+            <Text color={"white"} fontSize={["22px", "16px", "20px", "30px", "46px"]} fontWeight={"bold"}>
+  <FaShieldAlt  />
+            </Text>
+           
+          </Box>
         </HStack>
       </VStack>
     </Box>
