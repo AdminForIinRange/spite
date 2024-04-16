@@ -27,10 +27,10 @@ const Home = () => {
       <Box bgColor={"black"} w={"100%"} >
         <PerformanceText /> {" "}
       </Box>
-{/*       
+      
       <Box bgColor={"black"} w={"100%"}>
        <DisplayBox />
-      </Box> */}
+      </Box>
 
       </Box>
     </>
