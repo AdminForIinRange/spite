@@ -39,9 +39,7 @@ const LaptopGradientWithImg = () => {
   return (
     <>
       <VStack
-        bgGradient="linear(to-b, #000000, #3900B3, #000000)"
-        w="100%"
-        h="100%"
+       
         color="white"
         textAlign="center"
         display="flex"

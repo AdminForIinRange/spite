@@ -1,19 +1,40 @@
-import HeroHeader from '@/components/heroHeader/heroHeader'
-import LaptopGradientWithImg from '@/components/laptopImg/laptopImg'
-import { Box } from '@chakra-ui/react'
-import React from 'react'
+import DisplayBox from "@/components/displayBox/displayBox";
+import HeroHeader from "@/components/heroHeader/heroHeader";
+import LaptopGradientWithImg from "@/components/laptopImg/laptopImg";
+import PerformanceText from "@/components/performanceText/performanceText";
+import { Box } from "@chakra-ui/react";
+import React from "react";
 
 const Home = () => {
   return (
     <>
-    
-    <Box id='Home' bgColor={"black"} w={"100%"} >
 
-      <HeroHeader />
-    </Box>
-<LaptopGradientWithImg />
+    <Box>
+
+
+      <Box id="Home" bgColor={"black"} w={"100%"}>
+        <HeroHeader />
+      </Box>
+
+      <Box
+        bgGradient="linear(to-b, #000000, #3900B3, #000000)"
+        w="100%"
+        h="100%"
+      >
+        <LaptopGradientWithImg />
+      </Box>
+
+      <Box bgColor={"black"} w={"100%"}>
+        <PerformanceText />{" "}
+      </Box>
+      
+      <Box bgColor={"black"} w={"100%"}>
+       <DisplayBox />
+      </Box>
+
+      </Box>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
