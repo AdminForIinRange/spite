@@ -11,6 +11,7 @@ import { MdOutlineShowChart } from "react-icons/md";
 import { FaShieldAlt } from "react-icons/fa";
 import Image from "next/image";
 
+import { HiArrowLongRight } from "react-icons/hi2";
 const DisplayBox = () => {
   return (
     <Box
@@ -73,6 +74,10 @@ const DisplayBox = () => {
               >
                 Speed
               </Text>
+
+              <HStack justify={"end"} mt={["-80px", "125px", "205px", "135px", "135px"]} >
+              <HiArrowLongRight fontSize={"46px"} color="white" />
+              </HStack>
           </Box>
           <Box
                 cursor={"pointer"}
@@ -109,6 +114,9 @@ const DisplayBox = () => {
             >
               Scale
             </Text>
+            <HStack justify={"end"} mt={["-80px", "125px", "205px", "135px", "135px"]}  >
+              <HiArrowLongRight fontSize={"46px"} color="white" />
+              </HStack>
           </Box>
           <Box
                 cursor={"pointer"}
@@ -145,6 +153,9 @@ const DisplayBox = () => {
             >
               Safety
             </Text>
+            <HStack justify={"end"} mt={["-80px", "125px", "205px", "135px", "135px"]} >
+              <HiArrowLongRight fontSize={"46px"} color="white" />
+              </HStack>
           </Box>
         </HStack>
       </VStack>
