@@ -5,7 +5,7 @@ import React from "react";
 
 import SpeedCrypto from "@/img/SpeedCrypto.png";
 import IphoneCrypto from "@/img/iphonesCrypto.png";
-import IphoneLock from "@/img/iphoneProtect.png";
+import IphoneLock from "@/img/safety.png";
 import { IoIosSpeedometer } from "react-icons/io";
 import { MdOutlineShowChart } from "react-icons/md";
 import { FaShieldAlt } from "react-icons/fa";
@@ -37,9 +37,13 @@ const DisplayBox = () => {
           {" "}
           <Box
             transition={"all 0.3s ease"}
+            cursor={"pointer"}
             _hover={{
+              
               width: "150%",
               backgroundPosition: "top",
+              boxShadow: " 0 0px 100px 0 gray",
+           
             }}
             border={"1px solid white"}
             w={"100%"}
@@ -69,10 +73,13 @@ const DisplayBox = () => {
               </Text>
           </Box>
           <Box
+                cursor={"pointer"}
             transition={"all 0.3s ease"}
             _hover={{
               width: "150%",
               backgroundPosition: "top",
+              boxShadow: " 0 0px 100px 0 gray",
+           
             }}
             border={"1px solid white"}
             w={"100%"}
@@ -102,21 +109,25 @@ const DisplayBox = () => {
             </Text>
           </Box>
           <Box
+                cursor={"pointer"}
           
             transition={"all 0.3s ease"}
             _hover={{
               width: "150%",
               backgroundPosition: "top",
+              boxShadow: " 0 0px 100px 0 gray",
+           
             }}
             border={"1px solid white"}
+            
             w={"100%"}
             h={["100px", "250px", "350px", "350px", "350px"]}
             bg={"transparent"}
             rounded={"xl"}
             p={5}
             bgRepeat={"no-repeat"}
-            bgPosition={"right"}
-            bgSize={"60%"}
+            bgPosition={"bottom"}
+            bgSize={"70%"}
             bgImage={`url(${IphoneLock.src})`}
           >
             <Text
