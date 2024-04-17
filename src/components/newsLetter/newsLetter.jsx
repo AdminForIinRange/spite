@@ -241,6 +241,10 @@ const NewsLetter = () => {
           </Box>
           
         </HStack>
+
+
+
+
       </VStack>
     </>
   );
