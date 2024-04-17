@@ -26,6 +26,8 @@ const DisplayBox = () => {
         justify={"center"}
         gap={"100px"}
       >
+
+        
         <HStack
           w={"100%"}
           h={"100%"}
@@ -146,6 +148,7 @@ const DisplayBox = () => {
           </Box>
         </HStack>
       </VStack>
+      
     </Box>
   );
 };

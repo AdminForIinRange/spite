@@ -3,6 +3,7 @@
 import DisplayBox from "@/components/displayBox/displayBox";
 import HeroHeader from "@/components/heroHeader/heroHeader";
 import LaptopGradientWithImg from "@/components/laptopImg/laptopImg";
+import NewsLetter from "@/components/newsLetter/newsLetter";
 import PerformanceText from "@/components/performanceText/performanceText";
 import { Box } from "@chakra-ui/react";
 import React from "react";
@@ -33,6 +34,10 @@ const Home = () => {
       
       <Box bgColor={"black"}  w={"100%"}>
        <DisplayBox />
+      </Box>
+
+      <Box bgColor={"black"}  w={"100%"}>
+<NewsLetter />
       </Box>
   
       </Box>
