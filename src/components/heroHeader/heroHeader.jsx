@@ -15,7 +15,7 @@ const HeroHeader = () => {
         w={"100%"}
         align={"center"}
         p={3}
-        px={12}
+        px={[5, 7, 10, 12, 12]}
         mb={"100px"}
         bgImage={`url(${WaveyLine.src})`}
         bgRepeat={"no-repeat"}

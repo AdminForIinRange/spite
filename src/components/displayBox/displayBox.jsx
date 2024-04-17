@@ -54,7 +54,7 @@ const DisplayBox = () => {
 
             bgRepeat={"no-repeat"}
             bgPosition={"right"}
-            bgSize={"80%"}
+            bgSize={"100%"}
             bgImage={`url(${IphoneCrypto.src})`}
           >
             <Text
@@ -127,7 +127,7 @@ const DisplayBox = () => {
             p={5}
             bgRepeat={"no-repeat"}
             bgPosition={"bottom"}
-            bgSize={"70%"}
+            bgSize={"100%"}
             bgImage={`url(${IphoneLock.src})`}
           >
             <Text
