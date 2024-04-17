@@ -88,6 +88,14 @@ const NewsLetter = () => {
             </InputRightAddon>
           </InputGroup>
         </VStack>
+
+        <HStack                align={"center"}
+                justify={"center"}
+                h={"100%"}
+                w={"100%"}
+                gap={["10px", "10px", "20px", "20px", "30px"]}  > 
+
+        </HStack>
       </VStack>
     </>
   );
