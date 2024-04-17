@@ -36,7 +36,7 @@ const Home = () => {
        <DisplayBox />
       </Box>
 
-      <Box    bgGradient="linear(to-b, #000000, #805AD5, #000000)"
+      <Box   bgColor={"black"}
         w="100%"
         h="100%">
 <NewsLetter />
