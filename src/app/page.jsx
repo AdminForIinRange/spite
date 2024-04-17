@@ -28,7 +28,11 @@ const Home = () => {
         <PerformanceText /> {" "}
       </Box>
       
-      <Box bgColor={"black"} w={"100%"}>
+      <Box bgColor={"black"}  w={"100%"}>
+       <DisplayBox />
+      </Box>
+    
+      <Box bgColor={"black"}  w={"100%"}>
        <DisplayBox />
       </Box>
 
