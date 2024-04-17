@@ -6,14 +6,13 @@ import LaptopGradientWithImg from "@/components/laptopImg/laptopImg";
 import PerformanceText from "@/components/performanceText/performanceText";
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import WaveyLine from "@/img/WaveyLine.png";
 
 const Home = () => {
   return (
     <>
 
     <Box h={"100%"} w={"100%"} bgColor={"black"}       bgPosition={"right"}
-            bgSize={"100%"}>
+            bgSize={"100%"} >
 
 
       <Box id="Home" bgColor={"black"} w={"100%"}   >

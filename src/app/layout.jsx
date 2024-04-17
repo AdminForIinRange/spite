@@ -30,8 +30,8 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="RootLayout">
-        <ChakraProvider>
-          <Navbar />
+        <ChakraProvider >
+         
 
           {children}
         </ChakraProvider>

@@ -6,7 +6,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <Box bgColor={"black"} w={"100%"} h={"100%"} py={2}>
+    <Box  w={"100%"} h={"100%"}   >
       <HStack justify={"center"} w={"100%"}>
         <HStack justify={"space-between"} w={["90%", "80%", "50%", "40%"]} >
           <Link href={"#Home"}> 
