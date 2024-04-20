@@ -48,7 +48,7 @@ const Home = () => {
         <Box fontFamily={"Raleway"} w="100%" h="100%">
           <ServiceBox />
         </Box>
-        <Box bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
+        <Box bgColor={"black"} w="100%" h="100%" >
           <Roadmap />
         </Box>
         <Box bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
