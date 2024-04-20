@@ -5,6 +5,7 @@ import IphoneHero from "@/components/iphoneHero/iphoneHero";
 import LaptopGradientWithImg from "@/components/laptopImg/laptopImg";
 import NewsLetter from "@/components/newsLetter/newsLetter";
 import PerformanceText from "@/components/performanceText/performanceText";
+import Roadmap from "@/components/roadmap/roadmap";
 import ServiceBox from "@/components/serviceBox/serviceBox";
 import { Box } from "@chakra-ui/react";
 import React from "react";
@@ -48,10 +49,13 @@ const Home = () => {
           <ServiceBox />
         </Box>
         <Box bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
+          <Roadmap />
+        </Box>
+        <Box bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
           <NewsLetter />
         </Box>
 
-
+      
         <Box bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
           <Faq />
         </Box>
