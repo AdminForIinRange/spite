@@ -36,6 +36,7 @@ const Roadmap = () => {
                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
+        
               
               >
                 <Text
@@ -189,6 +190,7 @@ const Roadmap = () => {
               w={["10px", "10px", "10px", "10px", "10px"]}
               h={"1700px"}
               bg={"white"}
+              boxShadow={"0px 0px 50px white"}
               borderRadius={"full"}
             ></Box>
           </VStack>

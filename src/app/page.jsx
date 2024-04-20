@@ -1,5 +1,6 @@
 import DisplayBox from "@/components/displayBox/displayBox";
 import Faq from "@/components/faq/faq";
+import Footer from "@/components/footer/footer";
 import HeroHeader from "@/components/heroHeader/heroHeader";
 import IphoneHero from "@/components/iphoneHero/iphoneHero";
 import LaptopGradientWithImg from "@/components/laptopImg/laptopImg";
@@ -58,6 +59,10 @@ const Home = () => {
       
         <Box bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
           <Faq />
+        </Box>
+
+        <Box bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
+   <Footer />
         </Box>
       </Box>
     </>
