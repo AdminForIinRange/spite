@@ -7,7 +7,7 @@ const Roadmap = () => {
       <VStack
         w={"100%"}
         h={"100%"}
-        mt={["80px", "100px", "200px", "200px", "200px"]}
+        mt={["100px", "200px", "300px", "300px", "500px"]}
         justify={"center"}
         align={"center"}
         transition={"all 0.3s ease"}
@@ -26,6 +26,7 @@ const Roadmap = () => {
               <Box
               transition={"all 0.3s ease"}
               _hover={{
+                 boxShadow: "0px 0px 20px white",
                 marginRight: "20px",
               }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
@@ -34,6 +35,7 @@ const Roadmap = () => {
                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
+              
               >
                 <Text
                   textAlign={"left"}
@@ -41,7 +43,7 @@ const Roadmap = () => {
                   color={"white"}
                   fontWeight={"bold"}
                 >
-                  Q2 2023
+                  Q2 2024
                 </Text>
                 <Text
                   textAlign={"left"}
@@ -64,6 +66,7 @@ const Roadmap = () => {
               <Box
                 transition={"all 0.3s ease"}
                 _hover={{
+                     boxShadow: "0px 0px 20px white",
                   marginRight: "20px",
                 }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
@@ -79,7 +82,7 @@ const Roadmap = () => {
                   color={"white"}
                   fontWeight={"bold"}
                 >
-                  Q4 2023
+                  Q4 2024
                 </Text>{" "}
                 <Text
                   textAlign={"left"}
@@ -100,6 +103,7 @@ const Roadmap = () => {
               <Box
                 transition={"all 0.3s ease"}
                 _hover={{
+                     boxShadow: "0px 0px 20px white",
                   marginRight: "20px",
                 }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
@@ -116,7 +120,7 @@ const Roadmap = () => {
                   color={"white"}
                   fontWeight={"bold"}
                 >
-                  Q2 2024
+                  Q2 2025
                 </Text>{" "}
                 <Text
                   textAlign={"left"}
@@ -138,6 +142,7 @@ const Roadmap = () => {
               <Box
                 transition={"all 0.3s ease"}
                 _hover={{
+                     boxShadow: "0px 0px 20px white",
                   marginRight: "20px",
                 }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
@@ -154,7 +159,7 @@ const Roadmap = () => {
                   color={"white"}
                   fontWeight={"bold"}
                 >
-                  Q4 2024
+                  Q4 2025
                 </Text>{" "}
                 <Text
                   textAlign={"left"}
@@ -177,7 +182,10 @@ const Roadmap = () => {
 
           <VStack w={"100%"} h={"100%"} justify={"center"} align={"center"}>
             <Box
-              w={["10px", "15px", "20px", "25px", "25px"]}
+            ml={"10px"}
+
+            mr={"10px"}
+              w={["10px", "10px", "10px", "10px", "10px"]}
               h={"1700px"}
               bg={"white"}
               borderRadius={"full"}
@@ -189,6 +197,7 @@ const Roadmap = () => {
 
               transition={"all 0.3s ease"}
               _hover={{
+                 boxShadow: "0px 0px 20px white",
                 marginLeft: "20px",
               }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
@@ -199,20 +208,21 @@ const Roadmap = () => {
                 border={"1px solid white"}
               >
                 {" "}
-                <Text
+                <Text 
                   textAlign={"left"}
                   fontSize={"20px"}
                   color={"white"}
                   fontWeight={"bold"}
                 >
-                  Q1 2023
+                  Q1 2024
                 </Text>{" "}
                 <Text
                   textAlign={"left"}
                   fontSize={["12px", "13px", "14px", "15px", "16px"]}
-                  color={"white"}
+                  
                   fontWeight={"300"}
                    py={["5px", "5px", "5px", "10px", "20px"]}
+                   color={"white"}
                 >
                   Establish foundational infrastructure, onboard initial users,
                   and develop core trading features for the platform's launch.
@@ -228,6 +238,7 @@ const Roadmap = () => {
               <Box
                 transition={"all 0.3s ease"}
               _hover={{
+                 boxShadow: "0px 0px 20px white",
                 marginLeft: "20px",
               }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
@@ -244,7 +255,7 @@ const Roadmap = () => {
                   color={"white"}
                   fontWeight={"bold"}
                 >
-                  Q3 2023
+                  Q3 2024
                 </Text>{" "}
                 <Text
                   textAlign={"left"}
@@ -265,6 +276,7 @@ const Roadmap = () => {
               <Box
               transition={"all 0.3s ease"}
               _hover={{
+                 boxShadow: "0px 0px 20px white",
                 marginLeft: "20px",
               }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
@@ -281,7 +293,7 @@ const Roadmap = () => {
                   color={"white"}
                   fontWeight={"bold"}
                 >
-                  Q1 2024
+                  Q1 2025
                 </Text>{" "}
                 <Text
                   textAlign={"left"}
@@ -302,6 +314,7 @@ const Roadmap = () => {
               <Box
               transition={"all 0.3s ease"}
               _hover={{
+                 boxShadow: "0px 0px 20px white",
                 marginLeft: "20px",
               }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
@@ -318,7 +331,7 @@ const Roadmap = () => {
                   color={"white"}
                   fontWeight={"bold"}
                 >
-                  Q3 2024
+                  Q3 2025
                 </Text>
                 <Text
                   textAlign={"left"}
@@ -341,7 +354,9 @@ const Roadmap = () => {
               <Box
               transition={"all 0.3s ease"}
               _hover={{
+                
                 marginLeft: "20px",
+                boxShadow: "0px 0px 20px white",
               }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
@@ -357,7 +372,7 @@ const Roadmap = () => {
                   color={"white"}
                   fontWeight={"bold"}
                 >
-                  Q1 2025
+                  Q1 2026
                 </Text>
                 <Text
                   textAlign={"left"}

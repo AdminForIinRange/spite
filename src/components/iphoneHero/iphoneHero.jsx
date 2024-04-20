@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, HStack, VStack, Text, Button, Spacer } from "@chakra-ui/react";
+import { Box, HStack, VStack, Text, Button, Spacer,useMediaQuery } from "@chakra-ui/react";
 
 import iphoneCryptoDashboardHero from "@/img/iphoneCryptoDashboardHero.png";
 import IphoneDownload from "@/img/IphoneDownload.jpg";
@@ -7,7 +7,9 @@ import googleDownload from "@/img/googleDownload.jpg";
 
 import Image from "next/image";
 import { HiArrowLongRight } from "react-icons/hi2";
+
 const IphoneHero = () => {
+  const [isTablet] = useMediaQuery("(max-width: 1024px)");
   return (
     <>
       <HStack
@@ -39,7 +41,7 @@ const IphoneHero = () => {
             w={["100%", "100%", "100%", "100%", "90%"]}
             fontFamily={"Raleway"}
           >
-           Light in the Dark, Expand your crypto portfolio with Endless Possibilities
+           Light in the Dark
           </Text>
           <Text
             fontSize={["12px", "12px", "16px", "23px", "23px"]}

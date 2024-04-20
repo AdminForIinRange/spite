@@ -7,7 +7,7 @@ import { Box, HStack, VStack, Text,   Accordion,
 const Faq = () => {
   return (
     <>
-<VStack w={"100%"} mt={["50px", "50px", "100px", "150px", "150px"]} justify={"center"} align={"center"}  color={"white"}>
+<VStack w={"100%"}  mt={["100px", "200px", "200", "250px", "250px"]} justify={"center"} align={"center"}  color={"white"}>
     <VStack justify={"center"} align={"center"} >
         <Text  textAlign={"center"}  fontSize={["16px", "26px", "36px", "46px", "46px"]}
             color={"white"}
@@ -21,10 +21,10 @@ const Faq = () => {
             fontFamily={"Raleway"}>Everything you need to know in one place</Text>
     </VStack>
     
-    <VStack w={["95%", "95%", "95%", "90%", "90%"]} mt={["50px", "50px", "70px", "70px", "70px"]}>
+    <VStack w={["95%", "95%", "95%", "90%", "90%"]} mt={["50px", "50px", "70px", "70px", "70px"]} >
 
-    <Accordion defaultIndex={[0]} allowMultiple w={["100%", "95%", "90%", "70%", "70%"]}>
-  <AccordionItem>
+    <Accordion defaultIndex={[0]} allowMultiple w={["100%", "95%", "90%", "70%", "70%"]} >
+  <AccordionItem p={2} > 
     <h2>
       <AccordionButton >
         <Box as='span' flex='1' textAlign='left'  fontSize={["16px", "16px", "23px", "23px", "23px"]} >
@@ -33,14 +33,14 @@ const Faq = () => {
         <AccordionIcon />
       </AccordionButton>
     </h2>
-    <AccordionPanel pb={4}  fontSize={["12px", "12px", "16px", "16px", "16px"]}>
+    <AccordionPanel pb={4}  fontSize={["12px", "12px", "16px", "16px", "16px"]} >
       Spite stands as a pioneering platform at the forefront of the cryptocurrency trading landscape, providing a robust infrastructure tailored specifically for large crypto banks. Its role as an internal broker streamlines the process of buying, selling, and trading cryptocurrencies, offering seamless execution and minimal friction. With a focus on efficiency and security, Spite empowers users to navigate the dynamic crypto market with confidence, leveraging advanced data analytics and AI-driven algorithms to provide actionable insights in real-time.
       
       <br /> <br />  By prioritizing security through state-of-the-art encryption and multi-layered authentication, Spite ensures the safety of users' assets, fostering trust and reliability in its ecosystem.
     </AccordionPanel>
   </AccordionItem>
 
-  <AccordionItem>
+  <AccordionItem p={2} >
     <h2>
       <AccordionButton>
         <Box as='span' flex='1' textAlign='left'   fontSize={["16px", "16px", "23px", "23px", "23px"]} >
@@ -60,7 +60,7 @@ const Faq = () => {
     </AccordionPanel>
   </AccordionItem>
 
-  <AccordionItem>
+  <AccordionItem p={2} >
     <h2>
       <AccordionButton>
         <Box as='span' flex='1' textAlign='left'   fontSize={["16px", "16px", "23px", "23px", "23px"]} >
@@ -74,7 +74,7 @@ const Faq = () => {
     </AccordionPanel>
   </AccordionItem>
 
-  <AccordionItem>
+  <AccordionItem p={2} >
     <h2>
       <AccordionButton>
         <Box as='span' flex='1' textAlign='left'   fontSize={["16px", "16px", "23px", "23px", "23px"]} >
@@ -88,7 +88,7 @@ const Faq = () => {
     </AccordionPanel>
   </AccordionItem>
 
-  <AccordionItem>
+  <AccordionItem p={2} >
     <h2>
       <AccordionButton>
         <Box as='span' flex='1' textAlign='left'   fontSize={["16px", "16px", "23px", "23px", "23px"]} >
@@ -102,7 +102,7 @@ const Faq = () => {
     </AccordionPanel>
   </AccordionItem>
 
-  <AccordionItem>
+  <AccordionItem p={2} >
     <h2>
       <AccordionButton>
         <Box as='span' flex='1' textAlign='left'   fontSize={["16px", "16px", "23px", "23px", "23px"]} >
@@ -116,7 +116,7 @@ const Faq = () => {
     </AccordionPanel>
   </AccordionItem>
 
-  <AccordionItem>
+  <AccordionItem p={2} >
     <h2>
       <AccordionButton>
         <Box as='span' flex='1' textAlign='left'   fontSize={["16px", "16px", "23px", "23px", "23px"]} >
