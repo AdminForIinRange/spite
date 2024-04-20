@@ -6,7 +6,7 @@ import { FaGoogle, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <Box  bgColor="black" py={2} mt={"100px"} borderRadius={"15px"} 
+    <Box  mt={["100px", "200px", "300px", "300px", "300px"]}   bgColor="black" py={2}  borderRadius={"15px"} 
     color={"white"}>
       <Flex
         direction={{ base: "column", md: "row" }}
@@ -38,16 +38,16 @@ const Footer = () => {
             Get Started
           </Text>
           <Link href="/components" fontSize="sm" color="white">
-            Presets
+          Home
           </Link>
           <Link href="/components/card" fontSize="sm" color="white">
-            Card
+          Features
           </Link>
           <Link href="/components/loginForm" fontSize="sm" color="white">
-            Auth From
+          Roadmap
           </Link>
           <Link href="/" fontSize="sm" color="white">
-            Landing
+          Contact
           </Link>
         </Stack>
         <Stack spacing={4} textAlign="center" mb={{ base: 8, md: 0 }}>

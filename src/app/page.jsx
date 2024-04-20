@@ -37,7 +37,7 @@ const Home = () => {
           <PerformanceText />{" "}
         </Box>
 
-        <Box bgColor={"black"} w={"100%"} fontFamily={"Raleway"}>
+        <Box id="Features" bgColor={"black"} w={"100%"} fontFamily={"Raleway"}>
           <DisplayBox />
         </Box>
 
@@ -49,15 +49,15 @@ const Home = () => {
         <Box fontFamily={"Raleway"} w="100%" h="100%">
           <ServiceBox />
         </Box>
-        <Box bgColor={"black"} w="100%" h="100%"    >
+        <Box  id="Roadmap" bgColor={"black"} w="100%" h="100%"    >
           <Roadmap />
         </Box>
-        <Box bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
+        <Box id="NewsLetter" bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
           <NewsLetter />
         </Box>
 
       
-        <Box bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
+        <Box id="Contact" bgColor={"black"} w="100%" h="100%" fontFamily={"Raleway"}>
           <Faq />
         </Box>
 
