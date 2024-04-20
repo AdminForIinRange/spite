@@ -3,9 +3,9 @@
 import { Box, HStack, VStack, Text } from "@chakra-ui/react";
 import React from "react";
 
-import SpeedCrypto from "@/img/SpeedCrypto.png";
-import IphoneCrypto from "@/img/iphonesCrypto.png";
-import IphoneLock from "@/img/safety.png";
+import FlatIphone from "@/img/FlatIphone.png";
+
+
 import { IoIosSpeedometer } from "react-icons/io";
 import { MdOutlineShowChart } from "react-icons/md";
 import { FaShieldAlt } from "react-icons/fa";
@@ -13,9 +13,10 @@ import Image from "next/image";
 import { GoLaw } from "react-icons/go";
 import { HiArrowLongRight } from "react-icons/hi2";
 
-import FlatIphone from "@/img/flatIphone.png";
 import leftleaneum2 from "@/img/leftleaneum2.png";
-
+import leftleanIphone from "@/img/leftleanIphone.png";
+import { TbCashBanknoteOff } from "react-icons/tb";
+import { FaPeopleGroup } from "react-icons/fa6";
 const ServiceBox = () => {
   return (
     <Box
@@ -62,7 +63,7 @@ const ServiceBox = () => {
             bgRepeat={"no-repeat"}
             bgPosition={"right"}
             bgSize={"100%"}
-            bgImage={`url(${IphoneCrypto.src})`}
+            bgImage={`url(${leftleaneum2.src})`}
           >
             <Text
               color={"white"}
@@ -102,21 +103,21 @@ const ServiceBox = () => {
             bgPosition={"right"}
             bgSize={"80%"}
             
-            bgImage={`url(${SpeedCrypto.src})`}
+            bgImage={`url(${FlatIphone.src})`}
           >
             {" "}
             <Text
               color={"white"}
               fontSize={["22px", "16px", "20px", "46px", "46px"]}
             >
-              <MdOutlineShowChart />
+              <TbCashBanknoteOff />
             </Text>
             <Text
               color={"white"}
               fontSize={["22px", "16px", "20px", "46px", "46px"]}
               fontWeight={"700"}
             >
-              Scale
+              No Fees
             </Text>
             <HStack justify={"end"} mt={["-80px", "125px", "205px", "135px", "135px"]}  >
               <HiArrowLongRight fontSize={"46px"} color="white" />
@@ -142,20 +143,20 @@ const ServiceBox = () => {
             bgRepeat={"no-repeat"}
             bgPosition={"bottom"}
             bgSize={"100%"}
-            bgImage={`url(${IphoneLock.src})`}
+            bgImage={`url(${leftleanIphone.src})`}
           >
             <Text
               color={"white"}
               fontSize={["22px", "16px", "20px", "46px", "46px"]}
             >
-              <FaShieldAlt />
+              <FaPeopleGroup />
             </Text>
             <Text
               color={"white"}
               fontSize={["22px", "16px", "20px", "46px", "46px"]}
               fontWeight={"700"}
             >
-              Safety
+              Community
             </Text>
             <HStack justify={"end"} mt={["-80px", "125px", "205px", "135px", "135px"]} >
               <HiArrowLongRight fontSize={"46px"} color="white" />

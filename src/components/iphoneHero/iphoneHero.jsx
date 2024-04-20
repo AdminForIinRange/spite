@@ -31,12 +31,7 @@ const IphoneHero = () => {
         </VStack>
 
         <VStack justify={"center"} h={"100%"} w={"100%"} align={"start"}>
-          <Text
-            fontSize={["55px", "55px", "55px", "25px", "25px"]}
-            color={"white"}
-            fontWeight={"500"}
-            w={["100%", "100%", "100%", "100%", "90%"]}
-          ></Text>
+     
           <Text
             fontSize={["16px", "26px", "36px", "46px", "46px"]}
             color={"white"}
