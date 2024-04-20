@@ -2,20 +2,24 @@ import React from "react";
 import { Box, HStack, VStack, Text, Button, Spacer } from "@chakra-ui/react";
 
 import iphoneCryptoDashboardHero from "@/img/iphoneCryptoDashboardHero.png";
+import IphoneDownload from "@/img/IphoneDownload.jpg";
+import googleDownload from "@/img/googleDownload.jpg";
+
 import Image from "next/image";
 import { HiArrowLongRight } from "react-icons/hi2";
 const IphoneHero = () => {
   return (
     <>
       <HStack
-      px={["3", "3", "5", "5", "5"]}
+      px={["6", "6", "5", "5", "5"]}
         mt={["80px", "100px", "200px", "200px", "200px"]}
         justify={"center"}
         h={"100%"}
         w={"100%"}
         align={"center"}
+
       >
-        <HStack justify={"center"} h={"100%"} w={"100%"} align={"start"} mr={["0", "0", "0", "0", "-100px"]}>
+        <VStack justify={"center"} h={"100%"} w={"100%"} align={"center"} mr={["0", "0", "0", "0", "-100px"]}>
           <Image
             style={{ filter: "drop-shadow(0 0 200px white)" }}
             src={iphoneCryptoDashboardHero}
@@ -23,7 +27,8 @@ const IphoneHero = () => {
             width={800}
             height={100}
           />
-        </HStack>
+         
+        </VStack>
 
         <VStack justify={"center"} h={"100%"} w={"100%"} align={"start"}>
           <Text
@@ -39,7 +44,7 @@ const IphoneHero = () => {
             w={["100%", "100%", "100%", "100%", "90%"]}
             fontFamily={"Raleway"}
           >
-            Expand your crypto portfolio with Endless Possibilities
+           Light in the Dark, Expand your crypto portfolio with Endless Possibilities
           </Text>
           <Text
             fontSize={["12px", "12px", "16px", "23px", "23px"]}
@@ -55,8 +60,12 @@ const IphoneHero = () => {
             <Text fontSize={["25px", "25px", "25px", "55px", "55px"]} >
             <HiArrowLongRight  />
             </Text>
+            
            
           </Button>
+
+        
+          
         </VStack>
       </HStack>
     </>
