@@ -2,6 +2,7 @@
 
 import DisplayBox from "@/components/displayBox/displayBox";
 import HeroHeader from "@/components/heroHeader/heroHeader";
+import IphoneHero from "@/components/iphoneHero/iphoneHero";
 import LaptopGradientWithImg from "@/components/laptopImg/laptopImg";
 import NewsLetter from "@/components/newsLetter/newsLetter";
 import PerformanceText from "@/components/performanceText/performanceText";
@@ -34,6 +35,14 @@ const Home = () => {
       
       <Box bgColor={"black"}  w={"100%"}>
        <DisplayBox />
+      </Box>
+
+      <Box
+       
+        w="100%"
+        h="100%"
+      >
+       <IphoneHero />
       </Box>
 
       <Box   bgColor={"black"}
