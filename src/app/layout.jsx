@@ -13,8 +13,6 @@ export const metadata = {
   description: "Next.js starter app description",
 };
 
-import 'animate.css';
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

@@ -58,7 +58,6 @@ const NewsLetter = () => {
           align={"center"}
           justify={"center"}
           mt={"20px"}
-        
         >
           <InputGroup
             boxShadow={"0 0 10px 1px black"}
@@ -98,15 +97,15 @@ const NewsLetter = () => {
           h={"100%"}
           w={"100%"}
           gap={["10px", "10px", "20px", "20px", "30px"]}
-        
           wrap={["wrap", "wrap", "wrap", "wrap", "wrap"]}
         >
-          <Box cursor={"pointer"}
-                transition="all, 0.3s ease-in-out"
-                _hover={{
-                  transform: "scale(1.03)",
-                  boxShadow: "0 5px 25px gray",
-                }}
+          <Box
+            cursor={"pointer"}
+            transition="all, 0.3s ease-in-out"
+            _hover={{
+              transform: "scale(1.03)",
+              boxShadow: "0 5px 25px gray",
+            }}
             w={["250px", "250px", "250px", "350px", "350px"]}
             h={["250px", "250px", "250px", "350px", "350px"]}
             p={4}
@@ -140,22 +139,34 @@ const NewsLetter = () => {
                 bgImage={
                   "https://source.unsplash.com/tilt-shift-photography-of-green-computer-motherboard-bN5XdU-bap4"
                 }
-              > 
-                <HStack transition="all, 0.3s ease-in-out"   _hover={{
-                marginLeft: "0px",
-                }} w={"100%"} h={"100%"} justify={"end"} align={"end"} marginLeft={"-10px"}  fontSize={["30px", "30px", "30px", "46px", "46px"]}  >
-                <HiArrowLongRight  color="white"  /> </HStack> </Box>
+              >
+                <HStack
+                  transition="all, 0.3s ease-in-out"
+                  _hover={{
+                    marginLeft: "0px",
+                  }}
+                  w={"100%"}
+                  h={"100%"}
+                  justify={"end"}
+                  align={"end"}
+                  marginLeft={"-10px"}
+                  fontSize={["30px", "30px", "30px", "46px", "46px"]}
+                >
+                  <HiArrowLongRight color="white" />{" "}
+                </HStack>{" "}
+              </Box>
             </VStack>
           </Box>
-          <Box cursor={"pointer"}
-                transition="all, 0.3s ease-in-out"
-                _hover={{
-                  transform: "scale(1.03)",
-                  boxShadow: "0 5px 25px gray",
-                }}
-                w={["250px", "250px", "250px", "350px", "350px"]}
-                h={["250px", "250px", "250px", "350px", "350px"]}
-                p={4}
+          <Box
+            cursor={"pointer"}
+            transition="all, 0.3s ease-in-out"
+            _hover={{
+              transform: "scale(1.03)",
+              boxShadow: "0 5px 25px gray",
+            }}
+            w={["250px", "250px", "250px", "350px", "350px"]}
+            h={["250px", "250px", "250px", "350px", "350px"]}
+            p={4}
             rounded={"xl"}
             border={"0.8px solid white"}
           >
@@ -165,7 +176,7 @@ const NewsLetter = () => {
                 fontWeight={"500"}
                 color={"white"}
               >
-               BTC Price Prediction
+                BTC Price Prediction
               </Text>
               <Text
                 fontSize={["12px", "16px", "16px", "16px", "16px"]}
@@ -186,22 +197,34 @@ const NewsLetter = () => {
                 bgImage={
                   "https://source.unsplash.com/a-close-up-of-a-computer-screen-with-a-chart-on-it-JpflvzEl5cg"
                 }
-              > 
-                <HStack transition="all, 0.3s ease-in-out"   _hover={{
-                marginLeft: "0px",
-                }} w={"100%"} h={"100%"} justify={"end"} align={"end"} marginLeft={"-10px"}   fontSize={["30px", "30px", "30px", "46px", "46px"]}>
-                <HiArrowLongRight  color="white"  /> </HStack> </Box>
+              >
+                <HStack
+                  transition="all, 0.3s ease-in-out"
+                  _hover={{
+                    marginLeft: "0px",
+                  }}
+                  w={"100%"}
+                  h={"100%"}
+                  justify={"end"}
+                  align={"end"}
+                  marginLeft={"-10px"}
+                  fontSize={["30px", "30px", "30px", "46px", "46px"]}
+                >
+                  <HiArrowLongRight color="white" />{" "}
+                </HStack>{" "}
+              </Box>
             </VStack>
           </Box>
-          <Box cursor={"pointer"}
-                transition="all, 0.3s ease-in-out"
-                _hover={{
-                  transform: "scale(1.03)",
-                  boxShadow: "0 5px 25px gray",
-                }}
-                w={["250px", "250px", "250px", "350px", "350px"]}
-                h={["250px", "250px", "250px", "350px", "350px"]}
-                p={4}
+          <Box
+            cursor={"pointer"}
+            transition="all, 0.3s ease-in-out"
+            _hover={{
+              transform: "scale(1.03)",
+              boxShadow: "0 5px 25px gray",
+            }}
+            w={["250px", "250px", "250px", "350px", "350px"]}
+            h={["250px", "250px", "250px", "350px", "350px"]}
+            p={4}
             rounded={"xl"}
             border={"0.8px solid white"}
           >
@@ -232,19 +255,25 @@ const NewsLetter = () => {
                 bgImage={
                   "https://source.unsplash.com/person-holding-black-iphone-5-_EoTy8Wkf9s"
                 }
-              > 
-                <HStack transition="all, 0.3s ease-in-out"   _hover={{
-                marginLeft: "0px",
-                }} w={"100%"} h={"100%"} justify={"end"} align={"end"} marginLeft={"-10px"}   fontSize={["30px", "30px", "30px", "46px", "46px"]}>
-                <HiArrowLongRight  color="white"  /> </HStack> </Box>
+              >
+                <HStack
+                  transition="all, 0.3s ease-in-out"
+                  _hover={{
+                    marginLeft: "0px",
+                  }}
+                  w={"100%"}
+                  h={"100%"}
+                  justify={"end"}
+                  align={"end"}
+                  marginLeft={"-10px"}
+                  fontSize={["30px", "30px", "30px", "46px", "46px"]}
+                >
+                  <HiArrowLongRight color="white" />{" "}
+                </HStack>{" "}
+              </Box>
             </VStack>
           </Box>
-          
         </HStack>
-
-
-
-
       </VStack>
     </>
   );
