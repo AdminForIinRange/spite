@@ -3,8 +3,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 import { ChakraProvider } from "@chakra-ui/react";
-import Navbar from "@/components/navbar/navbar";
-
 
 
 export const metadata = {
@@ -14,6 +12,8 @@ export const metadata = {
   },
   description: "Next.js starter app description",
 };
+
+import 'animate.css';
 
 export default function RootLayout({ children }) {
   return (
