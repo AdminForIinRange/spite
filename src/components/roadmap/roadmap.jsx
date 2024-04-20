@@ -12,7 +12,6 @@ const Roadmap = () => {
         align={"center"}
         transition={"all 0.3s ease"}
       >
-
         <HStack>
           <HStack w={"100%"} h={"100%"} justify={"center"} align={"start"}>
             <VStack>
@@ -20,24 +19,22 @@ const Roadmap = () => {
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"trabsparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
               ></Box>
 
               <Box
-              transition={"all 0.3s ease"}
-              _hover={{
-                 boxShadow: "0px 0px 20px white",
-                marginRight: "20px",
-              }}
+                transition={"all 0.3s ease"}
+                _hover={{
+                  boxShadow: "0px 0px 20px white",
+                  marginRight: "20px",
+                }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"transparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
-        
-              
               >
                 <Text
                   textAlign={"left"}
@@ -52,29 +49,30 @@ const Roadmap = () => {
                   fontSize={["12px", "13px", "14px", "15px", "16px"]}
                   color={"white"}
                   fontWeight={"300"}
-                   py={["5px", "5px", "5px", "10px", "20px"]}
+                  py={["5px", "5px", "5px", "10px", "20px"]}
                 >
-                  Launch platform, focus on user acquisition, and gather feedback for iterative improvements.
+                  Launch platform, focus on user acquisition, and gather
+                  feedback for iterative improvements.
                 </Text>
               </Box>
               <Box
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"trabsparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
               >
                 {" "}
               </Box>
               <Box
                 transition={"all 0.3s ease"}
                 _hover={{
-                     boxShadow: "0px 0px 20px white",
+                  boxShadow: "0px 0px 20px white",
                   marginRight: "20px",
                 }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"transparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
               >
@@ -91,27 +89,28 @@ const Roadmap = () => {
                   fontSize={["12px", "13px", "14px", "15px", "16px"]}
                   color={"white"}
                   fontWeight={"300"}
-                   py={["5px", "5px", "5px", "10px", "20px"]}
+                  py={["5px", "5px", "5px", "10px", "20px"]}
                 >
-                   Introduce new features, explore collaborations, and prepare for scaling in the following year.
+                  Introduce new features, explore collaborations, and prepare
+                  for scaling in the following year.
                 </Text>
               </Box>
               <Box
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"trabsparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
               ></Box>
               <Box
                 transition={"all 0.3s ease"}
                 _hover={{
-                     boxShadow: "0px 0px 20px white",
+                  boxShadow: "0px 0px 20px white",
                   marginRight: "20px",
                 }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"transparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
               >
@@ -129,28 +128,29 @@ const Roadmap = () => {
                   fontSize={["12px", "13px", "14px", "15px", "16px"]}
                   color={"white"}
                   fontWeight={"300"}
-                   py={["5px", "5px", "5px", "10px", "20px"]}
+                  py={["5px", "5px", "5px", "10px", "20px"]}
                 >
-                 Enhance customer support, integrate additional cryptocurrencies, and explore international market opportunities.
+                  Enhance customer support, integrate additional
+                  cryptocurrencies, and explore international market
+                  opportunities.
                 </Text>
               </Box>
               <Box
-              
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"trabsparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
               ></Box>
               <Box
                 transition={"all 0.3s ease"}
                 _hover={{
-                     boxShadow: "0px 0px 20px white",
+                  boxShadow: "0px 0px 20px white",
                   marginRight: "20px",
                 }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"transparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
               >
@@ -167,26 +167,26 @@ const Roadmap = () => {
                   textAlign={"left"}
                   fontSize={["12px", "13px", "14px", "15px", "16px"]}
                   color={"white"}
-                   py={["5px", "5px", "5px", "10px", "20px"]}
+                  py={["5px", "5px", "5px", "10px", "20px"]}
                   fontWeight={"300"}
                 >
-                   Scale operations, deepen industry partnerships, and innovate with blockchain technology for future growth.
+                  Scale operations, deepen industry partnerships, and innovate
+                  with blockchain technology for future growth.
                 </Text>
               </Box>
               <Box
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"trabsparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
               ></Box>
             </VStack>
           </HStack>
 
           <VStack w={"100%"} h={"100%"} justify={"center"} align={"center"}>
             <Box
-            ml={"10px"}
-
-            mr={"10px"}
+              ml={"10px"}
+              mr={"10px"}
               w={["10px", "10px", "10px", "10px", "10px"]}
               h={"1700px"}
               bg={"white"}
@@ -197,12 +197,11 @@ const Roadmap = () => {
           <HStack w={"100%"} h={"100%"} justify={"center"} align={"start"}>
             <VStack>
               <Box
-
-              transition={"all 0.3s ease"}
-              _hover={{
-                 boxShadow: "0px 0px 20px white",
-                marginLeft: "20px",
-              }}
+                transition={"all 0.3s ease"}
+                _hover={{
+                  boxShadow: "0px 0px 20px white",
+                  marginLeft: "20px",
+                }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"transparent"}
@@ -211,7 +210,7 @@ const Roadmap = () => {
                 border={"1px solid white"}
               >
                 {" "}
-                <Text 
+                <Text
                   textAlign={"left"}
                   fontSize={"20px"}
                   color={"white"}
@@ -222,10 +221,9 @@ const Roadmap = () => {
                 <Text
                   textAlign={"left"}
                   fontSize={["12px", "13px", "14px", "15px", "16px"]}
-                  
                   fontWeight={"300"}
-                   py={["5px", "5px", "5px", "10px", "20px"]}
-                   color={"white"}
+                  py={["5px", "5px", "5px", "10px", "20px"]}
+                  color={"white"}
                 >
                   Establish foundational infrastructure, onboard initial users,
                   and develop core trading features for the platform's launch.
@@ -236,18 +234,18 @@ const Roadmap = () => {
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"trabsparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
               ></Box>
               <Box
                 transition={"all 0.3s ease"}
-              _hover={{
-                 boxShadow: "0px 0px 20px white",
-                marginLeft: "20px",
-              }}
+                _hover={{
+                  boxShadow: "0px 0px 20px white",
+                  marginLeft: "20px",
+                }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"transparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
               >
@@ -267,25 +265,26 @@ const Roadmap = () => {
                   fontWeight={"300"}
                   py={["5px", "5px", "5px", "10px", "20px"]}
                 >
-                   Enhance platform based on user feedback, expand partnerships, and bolster security measures.
+                  Enhance platform based on user feedback, expand partnerships,
+                  and bolster security measures.
                 </Text>
               </Box>
               <Box
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"trabsparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
               ></Box>
               <Box
-              transition={"all 0.3s ease"}
-              _hover={{
-                 boxShadow: "0px 0px 20px white",
-                marginLeft: "20px",
-              }}
+                transition={"all 0.3s ease"}
+                _hover={{
+                  boxShadow: "0px 0px 20px white",
+                  marginLeft: "20px",
+                }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"transparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
               >
@@ -303,27 +302,28 @@ const Roadmap = () => {
                   fontSize={["12px", "13px", "14px", "15px", "16px"]}
                   color={"white"}
                   fontWeight={"300"}
-                   py={["5px", "5px", "5px", "10px", "20px"]}
+                  py={["5px", "5px", "5px", "10px", "20px"]}
                 >
-                  Expand platform functionality, optimize user experience, and explore monetization strategies.
+                  Expand platform functionality, optimize user experience, and
+                  explore monetization strategies.
                 </Text>
               </Box>
               <Box
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"trabsparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
               ></Box>
               <Box
-              transition={"all 0.3s ease"}
-              _hover={{
-                 boxShadow: "0px 0px 20px white",
-                marginLeft: "20px",
-              }}
+                transition={"all 0.3s ease"}
+                _hover={{
+                  boxShadow: "0px 0px 20px white",
+                  marginLeft: "20px",
+                }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"transparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
               >
@@ -341,30 +341,30 @@ const Roadmap = () => {
                   fontSize={["12px", "13px", "14px", "15px", "16px"]}
                   color={"white"}
                   fontWeight={"300"}
-                   py={["5px", "5px", "5px", "10px", "20px"]}
+                  py={["5px", "5px", "5px", "10px", "20px"]}
                 >
-                   Implement advanced trading tools, launch mobile app, and strengthen regulatory compliance measures.
+                  Implement advanced trading tools, launch mobile app, and
+                  strengthen regulatory compliance measures.
                 </Text>
               </Box>
               <Box
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"trabsparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
               >
                 {" "}
               </Box>
               <Box
-              transition={"all 0.3s ease"}
-              _hover={{
-                
-                marginLeft: "20px",
-                boxShadow: "0px 0px 20px white",
-              }}
+                transition={"all 0.3s ease"}
+                _hover={{
+                  marginLeft: "20px",
+                  boxShadow: "0px 0px 20px white",
+                }}
                 w={["150px", "200px", "300px", "450px", "450px"]}
                 h={["200px", "200px", "200px", "200px", "200px"]}
                 bg={"transparent"}
-               borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+                borderRadius={["5px", "5px", "10px", "15px", "15px"]}
                 p={["10px", "10px", "20px", "20px", "20px"]}
                 border={"1px solid white"}
               >
@@ -382,9 +382,10 @@ const Roadmap = () => {
                   fontSize={["12px", "13px", "14px", "15px", "16px"]}
                   color={"white"}
                   fontWeight={"300"}
-                   py={["5px", "5px", "5px", "10px", "20px"]}
+                  py={["5px", "5px", "5px", "10px", "20px"]}
                 >
-                  Consolidate market presence, explore DeFi integrations, and invest in research for long-term sustainability.
+                  Consolidate market presence, explore DeFi integrations, and
+                  invest in research for long-term sustainability.
                 </Text>
               </Box>
             </VStack>
@@ -398,5 +399,10 @@ const Roadmap = () => {
 export default Roadmap;
 
 <HStack w={"100%"} h={"100%"} juwhite={"center"} align={"center"}>
-  <Box w={"450px"} h={"200px"} bg={"white"}borderRadius={["5px", "5px", "10px", "15px", "15px"]}></Box>
+  <Box
+    w={"450px"}
+    h={"200px"}
+    bg={"white"}
+    borderRadius={["5px", "5px", "10px", "15px", "15px"]}
+  ></Box>
 </HStack>;

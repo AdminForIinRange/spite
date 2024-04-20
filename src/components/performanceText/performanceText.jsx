@@ -30,8 +30,9 @@ const PerformanceText = () => {
         px={["3", "3", "10", "20", "20"]}
         mt={["50px", "50px", "100px", "150px", "150px"]}
       >
-        <VStack justify={"center"} align={"center"} >
-          <Text   transition={"all 0.3s ease"}
+        <VStack justify={"center"} align={"center"}>
+          <Text
+            transition={"all 0.3s ease"}
             textAlign={"center"}
             fontSize={["12px", "12px", "16px", "16px", "20px"]}
             color={"white"}
@@ -40,7 +41,8 @@ const PerformanceText = () => {
           >
             Users Count
           </Text>
-          <Text  transition={"all 0.3s ease"}
+          <Text
+            transition={"all 0.3s ease"}
             fontWeight={"bold"}
             fontSize={["25px", "28px", "45px", "55px", "65px"]}
             color={"white"}
@@ -50,7 +52,8 @@ const PerformanceText = () => {
           </Text>
         </VStack>
         <VStack justify={"center"} align={"center"}>
-          <Text  transition={"all 0.3s ease"}
+          <Text
+            transition={"all 0.3s ease"}
             textAlign={"center"}
             fontSize={["12px", "12px", "16px", "16px", "20px"]}
             color={"white"}
@@ -59,7 +62,8 @@ const PerformanceText = () => {
           >
             Total Transaction
           </Text>
-          <Text  transition={"all 0.3s ease"}
+          <Text
+            transition={"all 0.3s ease"}
             fontWeight={"bold"}
             fontSize={["25px", "28px", "45px", "55px", "65px"]}
             color={"white"}
@@ -69,7 +73,8 @@ const PerformanceText = () => {
           </Text>
         </VStack>
         <VStack justify={"center"} align={"center"}>
-          <Text  transition={"all 0.3s ease"}
+          <Text
+            transition={"all 0.3s ease"}
             textAlign={"center"}
             fontSize={["12px", "12px", "16px", "16px", "20px"]}
             color={"white"}
@@ -78,19 +83,20 @@ const PerformanceText = () => {
           >
             Server Speed
           </Text>
-          <Text  transition={"all 0.3s ease"}
+          <Text
+            transition={"all 0.3s ease"}
             fontWeight={"bold"}
             fontSize={["25px", "28px", "45px", "55px", "65px"]}
             color={color}
             mt={"10px"}
-   
           >
             {speed}
             MS
           </Text>
         </VStack>
         <VStack justify={"center"} align={"center"}>
-          <Text  transition={"all 0.3s ease"}
+          <Text
+            transition={"all 0.3s ease"}
             textAlign={"center"}
             fontWeight={"light"}
             fontSize={["12px", "12px", "16px", "16px", "20px"]}
@@ -99,7 +105,8 @@ const PerformanceText = () => {
           >
             Asset Pool
           </Text>
-          <Text  transition={"all 0.3s ease"}
+          <Text
+            transition={"all 0.3s ease"}
             fontWeight={"bold"}
             fontSize={["25px", "28px", "45px", "55px", "65px"]}
             color={"white"}

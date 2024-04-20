@@ -21,9 +21,8 @@ const HeroHeader = () => {
         bgRepeat={"no-repeat"}
         bgPosition={"bottom"}
         bgSize={"100%"}
-        
       >
-        <Navbar /> 
+        <Navbar />
         <VStack justify={"left"} h={"100%"} w={"100%"} align={"left"}>
           <Text
             fontSize={["40px", "40px", "60px", "80px", "95px"]}
@@ -42,17 +41,19 @@ const HeroHeader = () => {
             Opportunities Rise
           </Text>
 
-          <Button h={["30px", "30px", "30px", "40px", "40px"]} w={["120px", "120px", "140px", "200px", "200px"]} px={5} mt={5} fontSize={["10px", "10px", "12px", "16px", "16px"]}>
+          <Button
+            h={["30px", "30px", "30px", "40px", "40px"]}
+            w={["120px", "120px", "140px", "200px", "200px"]}
+            px={5}
+            mt={5}
+            fontSize={["10px", "10px", "12px", "16px", "16px"]}
+          >
             Get Started <Spacer />
-            <Text fontSize={["25px", "25px", "25px", "55px", "55px"]} >
-            <HiArrowLongRight  />
+            <Text fontSize={["25px", "25px", "25px", "55px", "55px"]}>
+              <HiArrowLongRight />
             </Text>
-           
           </Button>
         </VStack>
-
-
-
       </VStack>
     </>
   );

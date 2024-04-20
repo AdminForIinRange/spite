@@ -4,7 +4,6 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 import { ChakraProvider } from "@chakra-ui/react";
 
-
 export const metadata = {
   title: {
     default: "Next.js 14 Homepage",
@@ -28,11 +27,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="RootLayout">
-        <ChakraProvider >
-         
-
-          {children}
-        </ChakraProvider>
+        <ChakraProvider>{children}</ChakraProvider>
       </body>
     </html>
   );

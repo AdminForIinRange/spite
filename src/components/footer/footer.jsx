@@ -6,30 +6,38 @@ import { FaGoogle, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <Box  mt={["100px", "200px", "300px", "300px", "300px"]}   bgColor="black" py={2}  borderRadius={"15px"} 
-    color={"white"}>
+    <Box
+      mt={["100px", "200px", "300px", "300px", "300px"]}
+      bgColor="black"
+      py={2}
+      borderRadius={"15px"}
+      color={"white"}
+    >
       <Flex
         direction={{ base: "column", md: "row" }}
         justify="space-around"
-        align="center" 
-
+        align="center"
         color={"white"}
-     
       >
-        <Stack spacing={4} textAlign="center" mb={{ base: 8, md: 0 }}    color={"white"}  >
-          <Text fontSize="lg" fontWeight="bold"    color={"white"}>
+        <Stack
+          spacing={4}
+          textAlign="center"
+          mb={{ base: 8, md: 0 }}
+          color={"white"}
+        >
+          <Text fontSize="lg" fontWeight="bold" color={"white"}>
             Company
           </Text>
-          <Link href="#"  fontSize="sm" color="white">
+          <Link href="#" fontSize="sm" color="white">
             About Us
           </Link>
-          <Link href="#"  fontSize="sm" color="white">
+          <Link href="#" fontSize="sm" color="white">
             Contact Us
           </Link>
-          <Link href="#"  fontSize="sm" color="white">
+          <Link href="#" fontSize="sm" color="white">
             Privacy Policy
           </Link>
-          <Link href="#"  fontSize="sm" color="white">
+          <Link href="#" fontSize="sm" color="white">
             Terms of Service
           </Link>
         </Stack>
@@ -38,16 +46,16 @@ const Footer = () => {
             Get Started
           </Text>
           <Link href="/components" fontSize="sm" color="white">
-          Home
+            Home
           </Link>
           <Link href="/components/card" fontSize="sm" color="white">
-          Features
+            Features
           </Link>
           <Link href="/components/loginForm" fontSize="sm" color="white">
-          Roadmap
+            Roadmap
           </Link>
           <Link href="/" fontSize="sm" color="white">
-          Contact
+            Contact
           </Link>
         </Stack>
         <Stack spacing={4} textAlign="center" mb={{ base: 8, md: 0 }}>

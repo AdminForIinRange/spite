@@ -5,7 +5,6 @@ import React from "react";
 
 import FlatIphone from "@/img/FlatIphone.png";
 
-
 import { IoIosSpeedometer } from "react-icons/io";
 import { MdOutlineShowChart } from "react-icons/md";
 import { FaShieldAlt } from "react-icons/fa";
@@ -32,8 +31,6 @@ const ServiceBox = () => {
         justify={"center"}
         gap={"100px"}
       >
-
-        
         <HStack
           w={"100%"}
           h={"100%"}
@@ -47,11 +44,9 @@ const ServiceBox = () => {
             transition={"all 0.3s ease"}
             cursor={"pointer"}
             _hover={{
-              
               width: "150%",
               backgroundPosition: "top",
               boxShadow: " 0 0px 100px 0 gray",
-           
             }}
             border={"1px solid white"}
             w={"100%"}
@@ -59,7 +54,6 @@ const ServiceBox = () => {
             bg={"transparent"}
             rounded={"xl"}
             p={5}
-
             bgRepeat={"no-repeat"}
             bgPosition={"right"}
             bgSize={"100%"}
@@ -69,29 +63,30 @@ const ServiceBox = () => {
               color={"white"}
               fontSize={["22px", "16px", "30px", "46px", "46px"]}
             >
-              <GoLaw  />
-           
+              <GoLaw />
             </Text>
             <Text
-                color={"white"}
-                fontSize={["22px", "16px", "20px", "46px", "46px"]}
-                fontWeight={"700"}
-              >
-                Leverage
-              </Text>
+              color={"white"}
+              fontSize={["22px", "16px", "20px", "46px", "46px"]}
+              fontWeight={"700"}
+            >
+              Leverage
+            </Text>
 
-              <HStack justify={"end"} mt={["-80px", "125px", "205px", "135px", "135px"]} >
+            <HStack
+              justify={"end"}
+              mt={["-80px", "125px", "205px", "135px", "135px"]}
+            >
               <HiArrowLongRight fontSize={"46px"} color="white" />
-              </HStack>
+            </HStack>
           </Box>
           <Box
-                cursor={"pointer"}
+            cursor={"pointer"}
             transition={"all 0.3s ease"}
             _hover={{
               width: "150%",
               backgroundPosition: "top",
               boxShadow: " 0 0px 100px 0 gray",
-           
             }}
             border={"1px solid white"}
             w={"100%"}
@@ -102,7 +97,6 @@ const ServiceBox = () => {
             bgRepeat={"no-repeat"}
             bgPosition={"right"}
             bgSize={"80%"}
-            
             bgImage={`url(${FlatIphone.src})`}
           >
             {" "}
@@ -119,22 +113,22 @@ const ServiceBox = () => {
             >
               No Fees
             </Text>
-            <HStack justify={"end"} mt={["-80px", "125px", "205px", "135px", "135px"]}  >
+            <HStack
+              justify={"end"}
+              mt={["-80px", "125px", "205px", "135px", "135px"]}
+            >
               <HiArrowLongRight fontSize={"46px"} color="white" />
-              </HStack>
+            </HStack>
           </Box>
           <Box
-                cursor={"pointer"}
-          
+            cursor={"pointer"}
             transition={"all 0.3s ease"}
             _hover={{
               width: "150%",
               backgroundPosition: "top",
               boxShadow: " 0 0px 100px 0 gray",
-           
             }}
             border={"1px solid white"}
-            
             w={"100%"}
             h={["100px", "250px", "350px", "350px", "350px"]}
             bg={"transparent"}
@@ -158,13 +152,15 @@ const ServiceBox = () => {
             >
               Community
             </Text>
-            <HStack justify={"end"} mt={["-80px", "125px", "205px", "135px", "135px"]} >
+            <HStack
+              justify={"end"}
+              mt={["-80px", "125px", "205px", "135px", "135px"]}
+            >
               <HiArrowLongRight fontSize={"46px"} color="white" />
-              </HStack>
+            </HStack>
           </Box>
         </HStack>
       </VStack>
-      
     </Box>
   );
 };

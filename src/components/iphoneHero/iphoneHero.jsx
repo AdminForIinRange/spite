@@ -1,8 +1,15 @@
-
-"use client"
+"use client";
 
 import React from "react";
-import { Box, HStack, VStack, Text, Button, Spacer,useMediaQuery } from "@chakra-ui/react";
+import {
+  Box,
+  HStack,
+  VStack,
+  Text,
+  Button,
+  Spacer,
+  useMediaQuery,
+} from "@chakra-ui/react";
 
 import iphoneCryptoDashboardHero from "@/img/iphoneCryptoDashboardHero.png";
 import IphoneDownload from "@/img/IphoneDownload.jpg";
@@ -23,7 +30,6 @@ const IphoneHero = () => {
         w={"100%"}
         align={"center"}
       >
-        
         <VStack
           justify={"center"}
           h={"100%"}
@@ -40,79 +46,80 @@ const IphoneHero = () => {
           />
         </VStack>
 
-        { !isTablet && <VStack justify={"center"} h={"100%"} w={"100%"} align={"start"}>
-          <Text
-            fontSize={["16px", "26px", "36px", "46px", "46px"]}
-            color={"white"}
-            fontWeight={"700"}
-            w={["100%", "100%", "100%", "90%", "80%"]}
-            fontFamily={"Raleway"}
-          >
-            Light in the Dark, in the complex Crypto world.
-          </Text>
-          <Text
-            fontSize={["12px", "12px", "16px", "23px", "23px"]}
-            color={"white"}
-            fontWeight={"500"}
-            w={["100%", "100%", "80%", "70%", "70%"]}
-            fontFamily={"Raleway"}
-          >
-            A world of possibilities, in every byte, for every user.
-          </Text>
-          <Button
-            h={["30px", "30px", "30px", "40px", "40px"]}
-            w={["120px", "120px", "140px", "200px", "200px"]}
-            px={5}
-            mt={5}
-            fontSize={["10px", "10px", "12px", "16px", "16px"]}
-          >
-            Get Started <Spacer />
-            <Text fontSize={["25px", "25px", "25px", "55px", "55px"]}>
-              <HiArrowLongRight />
+        {!isTablet && (
+          <VStack justify={"center"} h={"100%"} w={"100%"} align={"start"}>
+            <Text
+              fontSize={["16px", "26px", "36px", "46px", "46px"]}
+              color={"white"}
+              fontWeight={"700"}
+              w={["100%", "100%", "100%", "90%", "80%"]}
+              fontFamily={"Raleway"}
+            >
+              Light in the Dark, in the complex Crypto world.
             </Text>
-          </Button>
-        </VStack>}
+            <Text
+              fontSize={["12px", "12px", "16px", "23px", "23px"]}
+              color={"white"}
+              fontWeight={"500"}
+              w={["100%", "100%", "80%", "70%", "70%"]}
+              fontFamily={"Raleway"}
+            >
+              A world of possibilities, in every byte, for every user.
+            </Text>
+            <Button
+              h={["30px", "30px", "30px", "40px", "40px"]}
+              w={["120px", "120px", "140px", "200px", "200px"]}
+              px={5}
+              mt={5}
+              fontSize={["10px", "10px", "12px", "16px", "16px"]}
+            >
+              Get Started <Spacer />
+              <Text fontSize={["25px", "25px", "25px", "55px", "55px"]}>
+                <HiArrowLongRight />
+              </Text>
+            </Button>
+          </VStack>
+        )}
       </HStack>
 
-      { isTablet &&  
-      
-      <HStack justify={"center"} h={"100%"} w={"100%"}>
-
-<VStack justify={"center"} h={"100%"} w={"100%"} align={"center"}>
-          <Text
-            fontSize={["26px", "26px", "36px", "46px", "46px"]}
-            color={"white"}
-            fontWeight={"700"}
-            w={["100%", "100%", "100%", "100%", "90%"]}
-            fontFamily={"Raleway"}
-            textAlign={"center"}
-          >
-            Light in the Dark
-          </Text>
-          <Text
-            fontSize={["12px", "12px", "23px", "23px", "23px"]}
-            color={"white"}
-            fontWeight={"500"}
-            w={["100%", "100%", "80%", "70%", "70%"]}
-            fontFamily={"Raleway"}
-            textAlign={"center"}
-          >
-            A world of possibilities, in every byte, for every user.
-          </Text>
-          <Button
-            h={["30px", "30px", "30px", "40px", "40px"]}
-            w={["120px", "120px", "140px", "200px", "200px"]}
-            px={5}
-            mt={5}
-            fontSize={["10px", "10px", "12px", "16px", "16px"]}
-          >
-            Get Started <Spacer />
-            <Text fontSize={["25px", "25px", "25px", "55px", "55px"]}>
-              <HiArrowLongRight />
+      {isTablet && (
+        <HStack justify={"center"} h={"100%"} w={"100%"}>
+          <VStack justify={"center"} h={"100%"} w={"100%"} align={"center"}>
+            <Text
+              fontSize={["26px", "26px", "36px", "46px", "46px"]}
+              color={"white"}
+              fontWeight={"700"}
+              w={["100%", "100%", "100%", "100%", "90%"]}
+              fontFamily={"Raleway"}
+              textAlign={"center"}
+            >
+              Light in the Dark
             </Text>
-          </Button>
-        </VStack>
-        </HStack>}
+            <Text
+              fontSize={["12px", "12px", "23px", "23px", "23px"]}
+              color={"white"}
+              fontWeight={"500"}
+              w={["100%", "100%", "80%", "70%", "70%"]}
+              fontFamily={"Raleway"}
+              textAlign={"center"}
+            >
+              A world of possibilities, in every byte, for every user.
+            </Text>
+            <Button
+              h={["30px", "30px", "30px", "40px", "40px"]}
+              w={["120px", "120px", "140px", "200px", "200px"]}
+              px={5}
+              mt={5}
+              fontSize={["10px", "10px", "12px", "16px", "16px"]}
+            >
+              Get Started <Spacer />
+              <Text fontSize={["25px", "25px", "25px", "55px", "55px"]}>
+                <HiArrowLongRight />
+              </Text>
+            </Button>
+          </VStack>
+        </HStack>
+      )}
     </>
   );
 };
