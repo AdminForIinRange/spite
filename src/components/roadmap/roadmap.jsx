@@ -7,11 +7,12 @@ const Roadmap = () => {
       <VStack
         w={"100%"}
         h={"100%"}
-        mt={["100px", "200px", "300px", "300px", "500px"]}
+        mt={["100px", "200px", "300px", "300px", "300px"]}
         justify={"center"}
         align={"center"}
         transition={"all 0.3s ease"}
       >
+
         <HStack>
           <HStack w={"100%"} h={"100%"} justify={"center"} align={"start"}>
             <VStack>

@@ -23,6 +23,7 @@ const IphoneHero = () => {
         w={"100%"}
         align={"center"}
       >
+        
         <VStack
           justify={"center"}
           h={"100%"}
@@ -44,10 +45,10 @@ const IphoneHero = () => {
             fontSize={["16px", "26px", "36px", "46px", "46px"]}
             color={"white"}
             fontWeight={"700"}
-            w={["100%", "100%", "100%", "100%", "90%"]}
+            w={["100%", "100%", "100%", "90%", "80%"]}
             fontFamily={"Raleway"}
           >
-            Light in the Dark
+            Light in the Dark, in the complex Crypto world.
           </Text>
           <Text
             fontSize={["12px", "12px", "16px", "23px", "23px"]}
