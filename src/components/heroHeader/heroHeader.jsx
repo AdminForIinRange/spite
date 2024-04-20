@@ -42,9 +42,12 @@ const HeroHeader = () => {
             Opportunities Rise
           </Text>
 
-          <Button w={"200px"} px={5} mt={5}>
+          <Button h={["30px", "30px", "30px", "40px", "40px"]} w={["120px", "120px", "140px", "200px", "200px"]} px={5} mt={5} fontSize={["10px", "10px", "12px", "16px", "16px"]}>
             Get Started <Spacer />
-            <HiArrowLongRight fontSize={"55px"} />
+            <Text fontSize={["25px", "25px", "25px", "55px", "55px"]} >
+            <HiArrowLongRight  />
+            </Text>
+           
           </Button>
         </VStack>
 
