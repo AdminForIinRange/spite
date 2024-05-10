@@ -8,15 +8,6 @@ This project is a fun experiment built with Next.js 14, Chakra UI, Framer Motion
 - [GitHub Repository](https://github.com/AdminForIinRange/spite)
 - [Live Deployment](https://spite-two.vercel.app/)
 
-![image](https://github.com/AdminForIinRange/spite/assets/91888685/dcdbe74e-2070-4c68-8732-66c3393dca0f)
-
-![image](https://github.com/AdminForIinRange/spite/assets/91888685/2aa67c6a-5360-4622-8fe3-6d14051b5dea)
-![image](https://github.com/AdminForIinRange/spite/assets/91888685/b008c35c-41ab-4389-9579-575df61b24b2)
-![image](https://github.com/AdminForIinRange/spite/assets/91888685/53bd46dd-65ba-4776-9721-fe239ee6d258)
-![image](https://github.com/AdminForIinRange/spite/assets/91888685/50695ae4-6bc1-40cb-b6e3-0adaf0eb4485)
-![image](https://github.com/AdminForIinRange/spite/assets/91888685/2a353f6a-3e5b-4641-9cdf-97f21d61449b)
-![image](https://github.com/AdminForIinRange/spite/assets/91888685/10c9ce23-de90-4505-a5eb-7db85e96ce87)
-
 ![2024, 23_13_06 GMT+9_30](https://github.com/AdminForIinRange/spite/assets/91888685/12075831-4a63-4479-820e-deb160d72e60)
 
 
