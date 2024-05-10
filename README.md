@@ -17,6 +17,8 @@ This project is a fun experiment built with Next.js 14, Chakra UI, Framer Motion
 ![image](https://github.com/AdminForIinRange/spite/assets/91888685/2a353f6a-3e5b-4641-9cdf-97f21d61449b)
 ![image](https://github.com/AdminForIinRange/spite/assets/91888685/10c9ce23-de90-4505-a5eb-7db85e96ce87)
 
+![2024, 23_13_06 GMT+9_30](https://github.com/AdminForIinRange/spite/assets/91888685/12075831-4a63-4479-820e-deb160d72e60)
+
 
 ## Key Features
 
