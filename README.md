@@ -1,4 +1,4 @@
-# Spite Project
+# Crypto Landing Page (Spite Project)
 
 This project is a fun experiment built with Next.js 14, Chakra UI, Framer Motion, emotion, and Animate.css. It provided an opportunity to explore and play around with new frameworks within the Next.js ecosystem. Additionally, it facilitated learning about various UI compatibility concepts integrated into Next.js.
 
