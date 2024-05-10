@@ -2,6 +2,12 @@
 
 This project is a fun experiment built with Next.js 14, Chakra UI, Framer Motion, emotion, and Animate.css. It provided an opportunity to explore and play around with new frameworks within the Next.js ecosystem. Additionally, it facilitated learning about various UI compatibility concepts integrated into Next.js.
 
+
+### Links
+
+- [GitHub Repository](https://github.com/AdminForIinRange/spite)
+- [Live Deployment](https://spite-two.vercel.app/)
+
 ![image](https://github.com/AdminForIinRange/spite/assets/91888685/dcdbe74e-2070-4c68-8732-66c3393dca0f)
 
 ![image](https://github.com/AdminForIinRange/spite/assets/91888685/2aa67c6a-5360-4622-8fe3-6d14051b5dea)
@@ -24,10 +30,6 @@ This project is a fun experiment built with Next.js 14, Chakra UI, Framer Motion
 
 The application is deployed on Vercel with seamless build and deployment options configured with GitHub.
 
-### Links
-
-- [GitHub Repository](https://github.com/AdminForIinRange/spite)
-- [Live Deployment](https://spite-two.vercel.app/)
 
 ## Getting Started
 
