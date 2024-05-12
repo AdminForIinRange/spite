@@ -1,6 +1,9 @@
 # Crypto Landing Page (Spite Project)
 
-This project is a fun experiment built with Next.js 14, Chakra UI, Framer Motion, emotion, and Animate.css. It provided an opportunity to explore and play around with new frameworks within the Next.js ecosystem. Additionally, it facilitated learning about various UI compatibility concepts integrated into Next.js.
+This was a fun project built with Next.js 14, Chakra UI, Framer Motion, emotion and Animate.css. I thoroughly enjoyed 
+exploring new frameworks, expanding my skills and knowledge in the process. This project allowed me to learn about 
+several UI compatibility concepts that are built in Next.js, I was also allowed to work with Vercel and deploy my application 
+with amazing build and deploy option configured with GitHub.  
 
 
 ### Links
