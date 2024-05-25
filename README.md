@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crypto Landing Page (Spite Project)
+
+This was a fun project built with Next.js 14, Chakra UI, Framer Motion, emotion and Animate.css. I thoroughly enjoyed 
+exploring new frameworks, expanding my skills and knowledge in the process. This project allowed me to learn about 
+several UI compatibility concepts that are built in Next.js, I was also allowed to work with Vercel and deploy my application 
+with amazing build and deploy option configured with GitHub.  
+
+
+### Links
+
+- [GitHub Repository](https://github.com/AdminForIinRange/spite)
+- [Live Deployment](https://spite-two.vercel.app/)
+
+![2024, 23_13_06 GMT+9_30](https://github.com/AdminForIinRange/spite/assets/91888685/12075831-4a63-4479-820e-deb160d72e60)
+
+
+## Key Features
+
+- Utilizes Next.js 14 for server-side rendering and routing.
+- Implements Chakra UI for building accessible and themeable React components.
+- Integrates Framer Motion for creating smooth animations.
+- Utilizes emotion for styling components.
+- Incorporates Animate.css for adding pre-built animations.
+
+## Deployment
+
+The application is deployed on Vercel with seamless build and deployment options configured with GitHub.
+
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository: `git clone https://github.com/AdminForIinRange/spite.git`
+2. Navigate into the project directory: `cd spite`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- `npm run dev`: Start the Next.js development server.
+- `npm run build`: Build the Next.js application for production.
+- `npm start`: Start the Next.js production server.
+- `npm run lint`: Lint the project using Next.js ESLint configuration.
+- `npm run prettier`: Format project files using Prettier.
+- `npm run pretty-check`: Check if project files conform to Prettier formatting.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Dependencies
 
-## Learn More
+- **@chakra-ui/next-js**: ^2.2.0
+- **@chakra-ui/react**: ^2.8.2
+- **@emotion/react**: ^11.11.4
+- **@emotion/styled**: ^11.11.5
+- **animate.css**: ^4.1.1
+- **framer-motion**: ^11.0.28
+- **next**: 14.2.1
+- **react**: ^18
+- **react-dom**: ^18
+- **react-icons**: ^5.1.0
 
-To learn more about Next.js, take a look at the following resources:
+## Dev Dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **eslint**: ^8
+- **eslint-config-next**: 14.2.1
+- **prettier**: ^2.8.8
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
